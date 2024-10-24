@@ -1,0 +1,15 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.left {
+    grid-column: 1/2;
+    background-color: aqua;
+}
+
+.right {
+    grid-column: 2/3;
+    background-color: brown;
+}
