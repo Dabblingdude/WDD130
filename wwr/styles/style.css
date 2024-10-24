@@ -7,6 +7,7 @@
 
 nav a {
     text-align: center;
+    color: black;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,9 +24,37 @@ main section {
 
 #background {
     height: 725px;
-}
-                
-body {
-    background-color: var(--primary-color);
+    background-color: rgb(171, 212, 224);
 }
 
+body {
+    background-color: rgb(211, 223, 226);
+}
+
+header {
+    background-color: rgb(65, 155, 182);
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.book, .join {
+    background-color: rgb(65, 155, 182);
+    color: black;
+}
+
+.book:hover, .join:hover {
+    background-color: white;
+    color: black;
+}
+
+.msg {
+    background-color: rgb(65, 155, 182);
+}
+
+footer {
+    background-color: rgb(65, 155, 182);
+    color: black;
+}
