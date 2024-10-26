@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 #content {
@@ -9,6 +11,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -26,6 +29,9 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: "Montserrat", "Roboto", Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -34,6 +40,7 @@ h4 {
 
 header {
     background-color: rgb(65, 155, 182);
+    font-family: "Montserrat", "Roboto", Arial;
 }
 
 
@@ -44,33 +51,52 @@ main section {
 #background {
     height: 725px;
     background-color: rgb(171, 212, 224);
+    margin-bottom: 100px;
 }
 
 body {
     background-color: rgb(211, 223, 226);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 .book, .join {
-    background-color: rgb(211, 223, 226);
+    background-color: rgb(65, 155, 182);
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: rgb(211, 223, 226);
+    background-color: #84B7BD;
     color: white;
 }
 
 .msg {
     background-color: rgb(211, 223, 226);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
 }
 
 .msg h2 {
     color: black;
+    font-family: "Montserrat", "Roboto", Arial;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -80,6 +106,8 @@ body {
 footer {
     background-color: rgb(65, 155, 182);
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -99,10 +127,31 @@ footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {  
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    color: #454C1E
+}
+
+.card-img {
+    border: 10px solid #454C1E;
+}
+
+main section img {
+    box-sizing: border-box;
 }
