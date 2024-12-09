@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | FAQ</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <div id="content">
+      <header>
+        <a id="logo_link" href="index.html">
+          <img class="logo" src="images/logo.png" alt="Dry Oar Logo" />
+        </a>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#">Page 2</a>
+          <a href="site-plan-rafting.html">Site Plan</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+      </header>
+
+      <main class="faq-grid">
+        <div id="back">
+            <img src="images/canyon.jpg" alt="Coasting in a canyon"/>
+        </div>
+
+        <h1 id="faq-header">Frequently Asked Questions</h1>
+        
+        <div class="accordions">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div>
+            
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div>
+            
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+              <p>Lorem ipsum...</p>
+            </div>
+
+            <style>
+            .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            }
+            </style>
+            
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+            }
+            </script>
+        </div>
+
+      </main>
+
+      <footer>
+        <p>Dry Oar &copy; 2024 - Samuel Niemand</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon" />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
