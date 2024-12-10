@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* header and footer css
+   A lot is from the rafting website, but adjusted to better fit my website */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color:#F5F5F5;
+    font-family: "Raleway";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1D3557;
+    height: 90px;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: left;
+}
+
+footer {
+    background-color: #1D3557;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+  
+footer a {
+    color: white;
+    text-decoration: none;
+}
+  
+footer a:hover {
+    color: white;
+}
+  
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Home Page Specific CSS */
