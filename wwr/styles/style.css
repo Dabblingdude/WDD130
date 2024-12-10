@@ -286,7 +286,6 @@ main section img {
 #answer1 {
   grid-row: 3/4;
   grid-column: 2/5;
-  border: 100px 0 black;
 }
 
 #button2 {
