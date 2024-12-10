@@ -241,12 +241,12 @@ main section img {
 
 .faq-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 #back {
   margin-top: 95px;
-  grid-row: 1/9;
+  grid-row: 1/14;
   grid-column: 1/4;
   z-index: -1;
   width: 100%;
@@ -261,91 +261,94 @@ main section img {
   font-size: 2em;
   margin-top: 110px;
   grid-row: 1/2;
-  grid-column: 2/3;
+  grid-column: 3/4;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgb(171, 212, 224);
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
-  border: none;
+  border: 0.75px 0 black;
   outline: none;
   transition: 0.4s;
+  font-size: 0.9em;
 }
 
 #button1 {
   grid-row: 2/3;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer1 {
   grid-row: 3/4;
-  grid-column: 2/3;
+  grid-column: 2/5;
+  border: 100px 0 black;
 }
 
 #button2 {
   grid-row: 4/5;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer2 {
   grid-row: 5/6;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #button3 {
   grid-row: 6/7;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer3 {
   grid-row: 7/8;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #button4 {
   grid-row: 8/9;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer4 {
   grid-row: 9/10;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #button5 {
   grid-row: 10/11;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer5 {
   grid-row: 11/12;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #button6 {
   grid-row: 12/13;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 #answer6 {
   grid-row: 13/14;
-  grid-column: 2/3;
+  grid-column: 2/5;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: rgb(65, 155, 182);
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
+  background-color: rgb(228, 247, 252);
+  font-size: 0.8em;
   padding: 0 18px;
-  background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
