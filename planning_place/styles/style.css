@@ -34,7 +34,6 @@ nav a:hover {
 #logo_link {
     padding-top: 5px;
     justify-self: center;
-    align-self: left;
 }
 
 footer {
@@ -170,13 +169,17 @@ footer .social img {
 }
 
 #tm-click {
-    grid-column: 5/6;
+    grid-column: 5/7;
     grid-row: 1/2;
     margin-top: 25px;
+    margin-left: 30px;
+    justify-items: left;
 }
 
 #pt-click {
-    grid-column: 5/6;
+    grid-column: 5/7;
     grid-row: 3/4;
     margin-top: 25px;
+    margin-left: 30px;
+    justify-items: left;
 }
